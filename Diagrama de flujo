@@ -1,0 +1,43 @@
+graph LR
+    subgraph Día 1
+        A[Pollito recién nacido]
+        A -->|Peso: 100g| B(Altura: 10cm)
+        B -->|Plumas suaves| C(Dependencia del calor)
+    end
+    subgraph Día 7
+        D[Desarrollo de plumas]
+        D -->|Peso: 150g| E(Altura: 12cm)
+        E -->|Curiosidad| F(Actividad)
+    end
+    subgraph Día 14
+        G[Desarrollo de plumas significativo]
+        G -->|Peso: 200g| H(Altura: 15cm)
+        H -->|Comportamiento independiente| I(Mayor autonomía)
+    end
+    subgraph Día 21
+        J[Plumaje de vuelo casi completo]
+        J -->|Peso: 250g| K(Altura: 18cm)
+        K -->|Exploración activa| L(Mayor independencia)
+    end
+    subgraph Día 28
+        M[Transición al exterior]
+        M -->|Peso: 300g| N(Altura: 20cm)
+        N -->|Alimento sólido| O(Adaptación al exterior)
+    end
+    subgraph Día 35
+        P[Plumaje casi completo]
+        P -->|Peso: 350g| Q(Altura: 22cm)
+        Q -->|Adaptación a temperaturas bajas| R(Mayor resistencia)
+    end
+    subgraph Día 42
+        S[Listo para vivir al aire libre]
+        S -->|Peso: 400g| T(Altura: 24cm)
+        T -->|Comportamiento similar a un adulto joven| U(Madurez incipiente)
+    end
+    subgraph Día 49
+        V[Crecimiento estabilizado]
+        V -->|Peso: 450g| W(Altura: 25cm)
+        W -->|Adaptación completa| X(Comportamiento adulto)
+    end
+
+    A --> D --> G --> J --> M --> P --> S --> V --> X
